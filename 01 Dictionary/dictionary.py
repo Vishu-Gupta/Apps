@@ -6,7 +6,7 @@ ERROR_MSG = "Word Doesn't exist. Please recheck the word"
 def translate(search_word):
     """Method to search for the word in Data and return list of meanings"""
     search_word = search_word.lower()
-    if search_word in data.keys(): 
+    if search_word in data.keys():
         return data[search_word]  # first search for the lower case version of the word
     elif search_word.title() in data.keys():
         return data[search_word.title()]  # then search for the Title version of the word
