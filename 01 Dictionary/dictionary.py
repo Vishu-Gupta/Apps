@@ -10,6 +10,8 @@ def translate(search_word):
         return data[search_word]  # first search for the lower case version of the word
     elif search_word.title() in data.keys():
         return data[search_word.title()]  # then search for the Title version of the word
+    elif search_word.upper() in data.keys():
+        return data[search_word.upper()]  # then search for the upper letter version of the word
     else:
         matching_word = find_match(search_word)
         if matching_word == ERROR_MSG:
