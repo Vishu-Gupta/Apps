@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40e74db10d3e4a17bb1783d1eb2252ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_40e74db10d3e4a17bb1783d1eb2252ba" ></div>
+        
+</body>
+<script>    
+    
+            var map_40e74db10d3e4a17bb1783d1eb2252ba = L.map(
+                "map_40e74db10d3e4a17bb1783d1eb2252ba",
+                {
+                    center: [28.47104, -77.04616],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_69da20f922d84d0e9f90d8fdd157d2d6 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_40e74db10d3e4a17bb1783d1eb2252ba);
+        
+    
+            var feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d = L.featureGroup(
+                {}
+            ).addTo(map_40e74db10d3e4a17bb1783d1eb2252ba);
+        
+    
+            var circle_marker_cf03cbbe0a664c8599b3d7fcaaa563f7 = L.circleMarker(
+                [48.7767982, -121.810997],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_a5f04d648f4c436481dffd7d621fd1cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f175d437d86d4b32a324146f03e91d48 = $(`<div id="html_f175d437d86d4b32a324146f03e91d48" style="width: 100.0%; height: 100.0%;">Baker @ 3285.0 m</div>`)[0];
+            popup_a5f04d648f4c436481dffd7d621fd1cf.setContent(html_f175d437d86d4b32a324146f03e91d48);
+        
+
+        circle_marker_cf03cbbe0a664c8599b3d7fcaaa563f7.bindPopup(popup_a5f04d648f4c436481dffd7d621fd1cf)
+        ;
+
+        
+    
+    
+            var circle_marker_8bb73cfe3d8346dda2003e7204a60ac8 = L.circleMarker(
+                [48.1118011, -121.1110001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_66aa17cb06ee406aa5fb13b80bd56d41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b71ac25ff664db9acb1e347690c11b5 = $(`<div id="html_1b71ac25ff664db9acb1e347690c11b5" style="width: 100.0%; height: 100.0%;">Glacier Peak @ 3213.0 m</div>`)[0];
+            popup_66aa17cb06ee406aa5fb13b80bd56d41.setContent(html_1b71ac25ff664db9acb1e347690c11b5);
+        
+
+        circle_marker_8bb73cfe3d8346dda2003e7204a60ac8.bindPopup(popup_66aa17cb06ee406aa5fb13b80bd56d41)
+        ;
+
+        
+    
+    
+            var circle_marker_8f15bd54d7db43969e6669cbed2f90e8 = L.circleMarker(
+                [46.8698006, -121.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_7adb243d40bd4b01856110603e1dc1eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64bf6c4a26fa46a8af93452adbfb6622 = $(`<div id="html_64bf6c4a26fa46a8af93452adbfb6622" style="width: 100.0%; height: 100.0%;">Rainier @ 4392.0 m</div>`)[0];
+            popup_7adb243d40bd4b01856110603e1dc1eb.setContent(html_64bf6c4a26fa46a8af93452adbfb6622);
+        
+
+        circle_marker_8f15bd54d7db43969e6669cbed2f90e8.bindPopup(popup_7adb243d40bd4b01856110603e1dc1eb)
+        ;
+
+        
+    
+    
+            var circle_marker_7539d7bc729f4efda48c0a017f01fe3c = L.circleMarker(
+                [46.1997986, -122.1809998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_ec41c033f79744d280b47fe68320de89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd71501377a4d17bb5287893742cefa = $(`<div id="html_fcd71501377a4d17bb5287893742cefa" style="width: 100.0%; height: 100.0%;">St. Helens @ 2549.0 m</div>`)[0];
+            popup_ec41c033f79744d280b47fe68320de89.setContent(html_fcd71501377a4d17bb5287893742cefa);
+        
+
+        circle_marker_7539d7bc729f4efda48c0a017f01fe3c.bindPopup(popup_ec41c033f79744d280b47fe68320de89)
+        ;
+
+        
+    
+    
+            var circle_marker_b504428ea15240e8853fc1ad71f3bab4 = L.circleMarker(
+                [46.2057991, -121.4909973],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_bd4acbd9820f49ab98a6490d6c13ebbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44385e31eb14cb1885c390b1b405475 = $(`<div id="html_a44385e31eb14cb1885c390b1b405475" style="width: 100.0%; height: 100.0%;">Adams @ 3742.0 m</div>`)[0];
+            popup_bd4acbd9820f49ab98a6490d6c13ebbb.setContent(html_a44385e31eb14cb1885c390b1b405475);
+        
+
+        circle_marker_b504428ea15240e8853fc1ad71f3bab4.bindPopup(popup_bd4acbd9820f49ab98a6490d6c13ebbb)
+        ;
+
+        
+    
+    
+            var circle_marker_cc06e89e8f6f466c94cdea1694192ab2 = L.circleMarker(
+                [45.8797989, -122.0810013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_a4a2675b80aa4b468a6c7908e2a24707 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c6877500b2d4428ad8ef7ecb36368f9 = $(`<div id="html_1c6877500b2d4428ad8ef7ecb36368f9" style="width: 100.0%; height: 100.0%;">West Crater @ 1329.0 m</div>`)[0];
+            popup_a4a2675b80aa4b468a6c7908e2a24707.setContent(html_1c6877500b2d4428ad8ef7ecb36368f9);
+        
+
+        circle_marker_cc06e89e8f6f466c94cdea1694192ab2.bindPopup(popup_a4a2675b80aa4b468a6c7908e2a24707)
+        ;
+
+        
+    
+    
+            var circle_marker_e2fb87e7bd774688bddbc491432569c2 = L.circleMarker(
+                [45.9297981, -121.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d6f4abc96dd448b5a40cf244e7fdd9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_741c6f788c0040ee851f2c45ef4a1929 = $(`<div id="html_741c6f788c0040ee851f2c45ef4a1929" style="width: 100.0%; height: 100.0%;">Indian Heaven @ 1806.0 m</div>`)[0];
+            popup_d6f4abc96dd448b5a40cf244e7fdd9e7.setContent(html_741c6f788c0040ee851f2c45ef4a1929);
+        
+
+        circle_marker_e2fb87e7bd774688bddbc491432569c2.bindPopup(popup_d6f4abc96dd448b5a40cf244e7fdd9e7)
+        ;
+
+        
+    
+    
+            var circle_marker_22f4d54e8b2a4d07b2e536e6ed7e9e40 = L.circleMarker(
+                [45.3737984, -121.6910019],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d585e4237af94f34a446e1f65297e71e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eefc077cee33464fad4f57899221c549 = $(`<div id="html_eefc077cee33464fad4f57899221c549" style="width: 100.0%; height: 100.0%;">Hood @ 3426.0 m</div>`)[0];
+            popup_d585e4237af94f34a446e1f65297e71e.setContent(html_eefc077cee33464fad4f57899221c549);
+        
+
+        circle_marker_22f4d54e8b2a4d07b2e536e6ed7e9e40.bindPopup(popup_d585e4237af94f34a446e1f65297e71e)
+        ;
+
+        
+    
+    
+            var circle_marker_772286dc14484f47b32fa8bb9f01fe3c = L.circleMarker(
+                [44.6917992, -121.8010025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f7c5d4567d804d3a916bcd4103f34bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a586259a27ad4bd8aab41213f3de837c = $(`<div id="html_a586259a27ad4bd8aab41213f3de837c" style="width: 100.0%; height: 100.0%;">Jefferson @ 3199.0 m</div>`)[0];
+            popup_f7c5d4567d804d3a916bcd4103f34bc1.setContent(html_a586259a27ad4bd8aab41213f3de837c);
+        
+
+        circle_marker_772286dc14484f47b32fa8bb9f01fe3c.bindPopup(popup_f7c5d4567d804d3a916bcd4103f34bc1)
+        ;
+
+        
+    
+    
+            var circle_marker_c4964a2e09444bab9d5ffa6f1f8f1ddf = L.circleMarker(
+                [44.4197998, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d4eff196800c438597a7fd2b044a761b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1208ea2cdb04036a3f2e7a5f454bc3f = $(`<div id="html_b1208ea2cdb04036a3f2e7a5f454bc3f" style="width: 100.0%; height: 100.0%;">Blue Lake Crater @ 1230.0 m</div>`)[0];
+            popup_d4eff196800c438597a7fd2b044a761b.setContent(html_b1208ea2cdb04036a3f2e7a5f454bc3f);
+        
+
+        circle_marker_c4964a2e09444bab9d5ffa6f1f8f1ddf.bindPopup(popup_d4eff196800c438597a7fd2b044a761b)
+        ;
+
+        
+    
+    
+            var circle_marker_355b8e131140450d98c1f035ff612db2 = L.circleMarker(
+                [44.3797989, -121.9309998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d248b490b5a0445b91fb9803cf67091e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcb0bb6a49f14fada8494b3fcf8e4e96 = $(`<div id="html_bcb0bb6a49f14fada8494b3fcf8e4e96" style="width: 100.0%; height: 100.0%;">Sand Mountain Field @ 1664.0 m</div>`)[0];
+            popup_d248b490b5a0445b91fb9803cf67091e.setContent(html_bcb0bb6a49f14fada8494b3fcf8e4e96);
+        
+
+        circle_marker_355b8e131140450d98c1f035ff612db2.bindPopup(popup_d248b490b5a0445b91fb9803cf67091e)
+        ;
+
+        
+    
+    
+            var circle_marker_5b0c166a9320417884c87c2c6401bdbd = L.circleMarker(
+                [44.3317986, -121.8310013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_430743ea57cf4ab199d7f0cc647b1c8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6defd377d634d3da64f186f476cfe37 = $(`<div id="html_c6defd377d634d3da64f186f476cfe37" style="width: 100.0%; height: 100.0%;">Washington @ 2376.0 m</div>`)[0];
+            popup_430743ea57cf4ab199d7f0cc647b1c8d.setContent(html_c6defd377d634d3da64f186f476cfe37);
+        
+
+        circle_marker_5b0c166a9320417884c87c2c6401bdbd.bindPopup(popup_430743ea57cf4ab199d7f0cc647b1c8d)
+        ;
+
+        
+    
+    
+            var circle_marker_c1c0e28d3822430ba76bd927216757b3 = L.circleMarker(
+                [44.2848015, -121.8410034],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_ba3e00aeb4734b3fa033ba36b1361e3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50088ce118cb4829941b0b9690abe4aa = $(`<div id="html_50088ce118cb4829941b0b9690abe4aa" style="width: 100.0%; height: 100.0%;">Belknap @ 2095.0 m</div>`)[0];
+            popup_ba3e00aeb4734b3fa033ba36b1361e3a.setContent(html_50088ce118cb4829941b0b9690abe4aa);
+        
+
+        circle_marker_c1c0e28d3822430ba76bd927216757b3.bindPopup(popup_ba3e00aeb4734b3fa033ba36b1361e3a)
+        ;
+
+        
+    
+    
+            var circle_marker_0946bc2d85b94946bda0e49ebdd4a940 = L.circleMarker(
+                [44.1697998, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_b4397efa4b574a55b5e4e64fb4a7dd29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeb3d0b706694f9f9c87d85e49c1f3b9 = $(`<div id="html_aeb3d0b706694f9f9c87d85e49c1f3b9" style="width: 100.0%; height: 100.0%;">North Sister Field @ 3074.0 m</div>`)[0];
+            popup_b4397efa4b574a55b5e4e64fb4a7dd29.setContent(html_aeb3d0b706694f9f9c87d85e49c1f3b9);
+        
+
+        circle_marker_0946bc2d85b94946bda0e49ebdd4a940.bindPopup(popup_b4397efa4b574a55b5e4e64fb4a7dd29)
+        ;
+
+        
+    
+    
+            var circle_marker_948acad150834f448c9f17a944792c1d = L.circleMarker(
+                [44.0998001, -121.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_e95a14e115a54daebcbe74680ca1910f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_868399724e924ff1ad5e193ce3327c0f = $(`<div id="html_868399724e924ff1ad5e193ce3327c0f" style="width: 100.0%; height: 100.0%;">South Sister @ 3157.0 m</div>`)[0];
+            popup_e95a14e115a54daebcbe74680ca1910f.setContent(html_868399724e924ff1ad5e193ce3327c0f);
+        
+
+        circle_marker_948acad150834f448c9f17a944792c1d.bindPopup(popup_e95a14e115a54daebcbe74680ca1910f)
+        ;
+
+        
+    
+    
+            var circle_marker_b0dae9d72c7744789a48f0f76f4aa3ea = L.circleMarker(
+                [43.9788017, -121.6809998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d37c8c1ac52e44d39cd56955187991e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17c31190e1c24574812f294a8fb800fc = $(`<div id="html_17c31190e1c24574812f294a8fb800fc" style="width: 100.0%; height: 100.0%;">Bachelor @ 2763.0 m</div>`)[0];
+            popup_d37c8c1ac52e44d39cd56955187991e5.setContent(html_17c31190e1c24574812f294a8fb800fc);
+        
+
+        circle_marker_b0dae9d72c7744789a48f0f76f4aa3ea.bindPopup(popup_d37c8c1ac52e44d39cd56955187991e5)
+        ;
+
+        
+    
+    
+            var circle_marker_edbccd0d1d4d49d7961b9db0208c66eb = L.circleMarker(
+                [43.7218018, -121.2210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f32eb96382b5491d9a5c3e76274426e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da4a6d00fbcd451d84df85f0d1eb922a = $(`<div id="html_da4a6d00fbcd451d84df85f0d1eb922a" style="width: 100.0%; height: 100.0%;">Newberry Volcano @ 2434.0 m</div>`)[0];
+            popup_f32eb96382b5491d9a5c3e76274426e0.setContent(html_da4a6d00fbcd451d84df85f0d1eb922a);
+        
+
+        circle_marker_edbccd0d1d4d49d7961b9db0208c66eb.bindPopup(popup_f32eb96382b5491d9a5c3e76274426e0)
+        ;
+
+        
+    
+    
+            var circle_marker_c9a66709b937473686ad6fa3e21a0ed3 = L.circleMarker(
+                [43.5698013, -121.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_ecca6d28c5a042979b4710ae3dc6caf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c5fd4823344ae9a0abdbeef6a469e9 = $(`<div id="html_b5c5fd4823344ae9a0abdbeef6a469e9" style="width: 100.0%; height: 100.0%;">Davis Lake @ 2163.0 m</div>`)[0];
+            popup_ecca6d28c5a042979b4710ae3dc6caf3.setContent(html_b5c5fd4823344ae9a0abdbeef6a469e9);
+        
+
+        circle_marker_c9a66709b937473686ad6fa3e21a0ed3.bindPopup(popup_ecca6d28c5a042979b4710ae3dc6caf3)
+        ;
+
+        
+    
+    
+            var circle_marker_10eebc56b6d4406e9c0883038490a933 = L.circleMarker(
+                [43.5119019, -120.8610001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_211b7c42697540ceba1e882077016bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd71b83f1519484482a185479aa1ba68 = $(`<div id="html_dd71b83f1519484482a185479aa1ba68" style="width: 100.0%; height: 100.0%;">Devils Garden @ 1698.0 m</div>`)[0];
+            popup_211b7c42697540ceba1e882077016bf1.setContent(html_dd71b83f1519484482a185479aa1ba68);
+        
+
+        circle_marker_10eebc56b6d4406e9c0883038490a933.bindPopup(popup_211b7c42697540ceba1e882077016bf1)
+        ;
+
+        
+    
+    
+            var circle_marker_675ebb69a6a1481eb22747de44e8e70e = L.circleMarker(
+                [43.240799, -122.1009979],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_4a30c229ee324ac3a801f3091cafe8b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb4f6473ef184374a20c921e900f4555 = $(`<div id="html_bb4f6473ef184374a20c921e900f4555" style="width: 100.0%; height: 100.0%;">Cinnamon Butte @ 1956.0 m</div>`)[0];
+            popup_4a30c229ee324ac3a801f3091cafe8b8.setContent(html_bb4f6473ef184374a20c921e900f4555);
+        
+
+        circle_marker_675ebb69a6a1481eb22747de44e8e70e.bindPopup(popup_4a30c229ee324ac3a801f3091cafe8b8)
+        ;
+
+        
+    
+    
+            var circle_marker_95e6028a10254904bea5627431e05762 = L.circleMarker(
+                [43.4719009, -120.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_7bd15004e79e4904aff4124681c89e92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e037dc22047046cab216dcbc7d9f3049 = $(`<div id="html_e037dc22047046cab216dcbc7d9f3049" style="width: 100.0%; height: 100.0%;">Squaw Ridge Lava Field @ 1711.0 m</div>`)[0];
+            popup_7bd15004e79e4904aff4124681c89e92.setContent(html_e037dc22047046cab216dcbc7d9f3049);
+        
+
+        circle_marker_95e6028a10254904bea5627431e05762.bindPopup(popup_7bd15004e79e4904aff4124681c89e92)
+        ;
+
+        
+    
+    
+            var circle_marker_68cb1063a1e145b29eeddf8f23679675 = L.circleMarker(
+                [43.3609009, -120.6610031],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_6fad3644515e4671bb290c08d532d89e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa217d52de284063bb7f6a8698f9da45 = $(`<div id="html_fa217d52de284063bb7f6a8698f9da45" style="width: 100.0%; height: 100.0%;">Four Craters Lava Field @ 1501.0 m</div>`)[0];
+            popup_6fad3644515e4671bb290c08d532d89e.setContent(html_fa217d52de284063bb7f6a8698f9da45);
+        
+
+        circle_marker_68cb1063a1e145b29eeddf8f23679675.bindPopup(popup_6fad3644515e4671bb290c08d532d89e)
+        ;
+
+        
+    
+    
+            var circle_marker_8320f5331f564626971c1254af58607f = L.circleMarker(
+                [42.9299011, -122.1210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_07eb56e81b9647c68d8bb67dcd3250d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f873e16e3c140bc80c76fac54634e55 = $(`<div id="html_3f873e16e3c140bc80c76fac54634e55" style="width: 100.0%; height: 100.0%;">Crater Lake @ 2487.0 m</div>`)[0];
+            popup_07eb56e81b9647c68d8bb67dcd3250d0.setContent(html_3f873e16e3c140bc80c76fac54634e55);
+        
+
+        circle_marker_8320f5331f564626971c1254af58607f.bindPopup(popup_07eb56e81b9647c68d8bb67dcd3250d0)
+        ;
+
+        
+    
+    
+            var circle_marker_01f337b5b1f944f88bec36585ceff230 = L.circleMarker(
+                [44.4299011, -110.6709976],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f0966782bda64e1e8550bcf33754ccb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_610678ef29d94d398b13978a9183aa3b = $(`<div id="html_610678ef29d94d398b13978a9183aa3b" style="width: 100.0%; height: 100.0%;">Yellowstone @ 2805.0 m</div>`)[0];
+            popup_f0966782bda64e1e8550bcf33754ccb1.setContent(html_610678ef29d94d398b13978a9183aa3b);
+        
+
+        circle_marker_01f337b5b1f944f88bec36585ceff230.bindPopup(popup_f0966782bda64e1e8550bcf33754ccb1)
+        ;
+
+        
+    
+    
+            var circle_marker_1f56e492841a4314afe6a3897ddb41e3 = L.circleMarker(
+                [43.0998993, -118.7509995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_7624eb6e5a81455f80d7eb34a79e6db5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baa658bc44b046ac9330467db5083e7b = $(`<div id="html_baa658bc44b046ac9330467db5083e7b" style="width: 100.0%; height: 100.0%;">Diamond Craters @ 1435.0 m</div>`)[0];
+            popup_7624eb6e5a81455f80d7eb34a79e6db5.setContent(html_baa658bc44b046ac9330467db5083e7b);
+        
+
+        circle_marker_1f56e492841a4314afe6a3897ddb41e3.bindPopup(popup_7624eb6e5a81455f80d7eb34a79e6db5)
+        ;
+
+        
+    
+    
+            var circle_marker_2acec8feb84b4b739edf7919d472128d = L.circleMarker(
+                [43.1498985, -117.4710007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_ccdf4c5a9ede4f02ba616533cbbf0093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb70d1a0cc1b4bc5a6ce167571fdd5ce = $(`<div id="html_cb70d1a0cc1b4bc5a6ce167571fdd5ce" style="width: 100.0%; height: 100.0%;">Jordan Craters @ 1473.0 m</div>`)[0];
+            popup_ccdf4c5a9ede4f02ba616533cbbf0093.setContent(html_cb70d1a0cc1b4bc5a6ce167571fdd5ce);
+        
+
+        circle_marker_2acec8feb84b4b739edf7919d472128d.bindPopup(popup_ccdf4c5a9ede4f02ba616533cbbf0093)
+        ;
+
+        
+    
+    
+            var circle_marker_ee200fc5e4e04055867996ed83ea3092 = L.circleMarker(
+                [42.9999008, -117.8010025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f85d5c91dd2a4412947c444ca2104b14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_deecf24d36944248a26be11d7a528911 = $(`<div id="html_deecf24d36944248a26be11d7a528911" style="width: 100.0%; height: 100.0%;">Saddle Butte @ 1700.0 m</div>`)[0];
+            popup_f85d5c91dd2a4412947c444ca2104b14.setContent(html_deecf24d36944248a26be11d7a528911);
+        
+
+        circle_marker_ee200fc5e4e04055867996ed83ea3092.bindPopup(popup_f85d5c91dd2a4412947c444ca2104b14)
+        ;
+
+        
+    
+    
+            var circle_marker_365dc9969e0b4cf3bccb233ee06f506b = L.circleMarker(
+                [43.419899, -113.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f2d58da744e04be28a291c5af50e7a2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17bbdc2a82c40478993497051a57ace = $(`<div id="html_d17bbdc2a82c40478993497051a57ace" style="width: 100.0%; height: 100.0%;">Craters of the Moon @ 2005.0 m</div>`)[0];
+            popup_f2d58da744e04be28a291c5af50e7a2d.setContent(html_d17bbdc2a82c40478993497051a57ace);
+        
+
+        circle_marker_365dc9969e0b4cf3bccb233ee06f506b.bindPopup(popup_f2d58da744e04be28a291c5af50e7a2d)
+        ;
+
+        
+    
+    
+            var circle_marker_a021020761ba460892b07bcd5721e22e = L.circleMarker(
+                [43.4999008, -112.4509964],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_962cbc3a49004a548c068bf77dce5f10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffc12e558c5e4846a87329b0d2fc6059 = $(`<div id="html_ffc12e558c5e4846a87329b0d2fc6059" style="width: 100.0%; height: 100.0%;">Hell Half Acre @ 1631.0 m</div>`)[0];
+            popup_962cbc3a49004a548c068bf77dce5f10.setContent(html_ffc12e558c5e4846a87329b0d2fc6059);
+        
+
+        circle_marker_a021020761ba460892b07bcd5721e22e.bindPopup(popup_962cbc3a49004a548c068bf77dce5f10)
+        ;
+
+        
+    
+    
+            var circle_marker_809d2af0c3154af5b915fb5bf42c4c1a = L.circleMarker(
+                [43.1799011, -114.3509979],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_4de7540296804a65ab96f124a5c9db78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c381736594ec41e3befb118d52356bb3 = $(`<div id="html_c381736594ec41e3befb118d52356bb3" style="width: 100.0%; height: 100.0%;">Shoshone Lava Field @ 1478.0 m</div>`)[0];
+            popup_4de7540296804a65ab96f124a5c9db78.setContent(html_c381736594ec41e3befb118d52356bb3);
+        
+
+        circle_marker_809d2af0c3154af5b915fb5bf42c4c1a.bindPopup(popup_4de7540296804a65ab96f124a5c9db78)
+        ;
+
+        
+    
+    
+            var circle_marker_ecb9f1ce8a454a38bbde75d59520cf47 = L.circleMarker(
+                [42.6058998, -117.5810013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_dff0c0be891c40e1a40e980dedce0bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d478e8b9cf94f3593cc985ded0467b3 = $(`<div id="html_6d478e8b9cf94f3593cc985ded0467b3" style="width: 100.0%; height: 100.0%;">Jackies Butte @ 1418.0 m</div>`)[0];
+            popup_dff0c0be891c40e1a40e980dedce0bc6.setContent(html_6d478e8b9cf94f3593cc985ded0467b3);
+        
+
+        circle_marker_ecb9f1ce8a454a38bbde75d59520cf47.bindPopup(popup_dff0c0be891c40e1a40e980dedce0bc6)
+        ;
+
+        
+    
+    
+            var circle_marker_245a0f70edde4e5cb99de650f64c7360 = L.circleMarker(
+                [41.5798988, -121.5709991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_f89d3ae2162749a4ae7b6799d554d670 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c6fac6bb9db47b1845a6998b30bc98b = $(`<div id="html_7c6fac6bb9db47b1845a6998b30bc98b" style="width: 100.0%; height: 100.0%;">Medicine Lake @ 2412.0 m</div>`)[0];
+            popup_f89d3ae2162749a4ae7b6799d554d670.setContent(html_7c6fac6bb9db47b1845a6998b30bc98b);
+        
+
+        circle_marker_245a0f70edde4e5cb99de650f64c7360.bindPopup(popup_f89d3ae2162749a4ae7b6799d554d670)
+        ;
+
+        
+    
+    
+            var circle_marker_802533b96d4c4df4b40ef09206959ceb = L.circleMarker(
+                [42.8799019, -113.2210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_cc65a56c84b24f268c23dae15b79ce45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22ed042dce0f4de4916e4430f09ba507 = $(`<div id="html_22ed042dce0f4de4916e4430f09ba507" style="width: 100.0%; height: 100.0%;">Wapi Lava Field @ 1604.0 m</div>`)[0];
+            popup_cc65a56c84b24f268c23dae15b79ce45.setContent(html_22ed042dce0f4de4916e4430f09ba507);
+        
+
+        circle_marker_802533b96d4c4df4b40ef09206959ceb.bindPopup(popup_cc65a56c84b24f268c23dae15b79ce45)
+        ;
+
+        
+    
+    
+            var circle_marker_ec6a68638b5f47f3abbbf51a6d5f2890 = L.circleMarker(
+                [41.419899, -122.2009964],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_e9dc8320b8974a3081e1eefc4375b31d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e077e39f41942e7a09902d673323f9e = $(`<div id="html_6e077e39f41942e7a09902d673323f9e" style="width: 100.0%; height: 100.0%;">Shasta @ 4317.0 m</div>`)[0];
+            popup_e9dc8320b8974a3081e1eefc4375b31d.setContent(html_6e077e39f41942e7a09902d673323f9e);
+        
+
+        circle_marker_ec6a68638b5f47f3abbbf51a6d5f2890.bindPopup(popup_e9dc8320b8974a3081e1eefc4375b31d)
+        ;
+
+        
+    
+    
+            var circle_marker_1e0d3a3566a54d9da43beb951f77dbc8 = L.circleMarker(
+                [41.1778984, -121.4410019],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_bfc22c872a9e42339548db2d6a685d0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_227728756206468c9eeaf4aa796a52b4 = $(`<div id="html_227728756206468c9eeaf4aa796a52b4" style="width: 100.0%; height: 100.0%;">Brushy Butte @ 1174.0 m</div>`)[0];
+            popup_bfc22c872a9e42339548db2d6a685d0e.setContent(html_227728756206468c9eeaf4aa796a52b4);
+        
+
+        circle_marker_1e0d3a3566a54d9da43beb951f77dbc8.bindPopup(popup_bfc22c872a9e42339548db2d6a685d0e)
+        ;
+
+        
+    
+    
+            var circle_marker_2fa4927e768e4e17a8776ad4b7d10a07 = L.circleMarker(
+                [40.9548988, -121.3610001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_bc79a0f74e4a4fc69db90e87952ee3b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d919073602bd4219af664163a32033cd = $(`<div id="html_d919073602bd4219af664163a32033cd" style="width: 100.0%; height: 100.0%;">Big Cave @ 1259.0 m</div>`)[0];
+            popup_bc79a0f74e4a4fc69db90e87952ee3b4.setContent(html_d919073602bd4219af664163a32033cd);
+        
+
+        circle_marker_2fa4927e768e4e17a8776ad4b7d10a07.bindPopup(popup_bc79a0f74e4a4fc69db90e87952ee3b4)
+        ;
+
+        
+    
+    
+            var circle_marker_7dcefb936792474ab4cc54c9013cb8f2 = L.circleMarker(
+                [40.7798996, -121.6009979],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_6c4ed9edceca40a6aec2fa6f3bbd9c5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64f650a53ba44128bfe72dd0481b485b = $(`<div id="html_64f650a53ba44128bfe72dd0481b485b" style="width: 100.0%; height: 100.0%;">Twin Buttes @ 1631.0 m</div>`)[0];
+            popup_6c4ed9edceca40a6aec2fa6f3bbd9c5f.setContent(html_64f650a53ba44128bfe72dd0481b485b);
+        
+
+        circle_marker_7dcefb936792474ab4cc54c9013cb8f2.bindPopup(popup_6c4ed9edceca40a6aec2fa6f3bbd9c5f)
+        ;
+
+        
+    
+    
+            var circle_marker_65328a3e7f5c4bb38a169de3d6476f76 = L.circleMarker(
+                [40.6799011, -121.5510025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_4f455b5175d9466c992be3951487ced3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aed27b4dce354051b0a8ee4189d5ea41 = $(`<div id="html_aed27b4dce354051b0a8ee4189d5ea41" style="width: 100.0%; height: 100.0%;">Tumble Buttes @ 2191.0 m</div>`)[0];
+            popup_4f455b5175d9466c992be3951487ced3.setContent(html_aed27b4dce354051b0a8ee4189d5ea41);
+        
+
+        circle_marker_65328a3e7f5c4bb38a169de3d6476f76.bindPopup(popup_4f455b5175d9466c992be3951487ced3)
+        ;
+
+        
+    
+    
+            var circle_marker_b733fb8549ac460e85e2d7a0cc818809 = L.circleMarker(
+                [40.6299019, -120.8310013],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_905307cf6c0140458b64fc7d200afbb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b06b57e7a1a4234b18b3088c23341c9 = $(`<div id="html_1b06b57e7a1a4234b18b3088c23341c9" style="width: 100.0%; height: 100.0%;">Eagle Lake Field @ 1652.0 m</div>`)[0];
+            popup_905307cf6c0140458b64fc7d200afbb2.setContent(html_1b06b57e7a1a4234b18b3088c23341c9);
+        
+
+        circle_marker_b733fb8549ac460e85e2d7a0cc818809.bindPopup(popup_905307cf6c0140458b64fc7d200afbb2)
+        ;
+
+        
+    
+    
+            var circle_marker_4f66ec99c6124bb0bced3dcebf2cee80 = L.circleMarker(
+                [40.4919014, -121.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_4bfbc3ec7f8947539b2d46c8d2b0b7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b706b42ed84726b10bd6567486fc2c = $(`<div id="html_15b706b42ed84726b10bd6567486fc2c" style="width: 100.0%; height: 100.0%;">Lassen Volc Center @ 3187.0 m</div>`)[0];
+            popup_4bfbc3ec7f8947539b2d46c8d2b0b7f8.setContent(html_15b706b42ed84726b10bd6567486fc2c);
+        
+
+        circle_marker_4f66ec99c6124bb0bced3dcebf2cee80.bindPopup(popup_4bfbc3ec7f8947539b2d46c8d2b0b7f8)
+        ;
+
+        
+    
+    
+            var circle_marker_13704934cd884ca1a3c65556fb391dc6 = L.circleMarker(
+                [38.9698982, -122.7710037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_3444e235447844b094acf9ade248fcb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_244fc01cd2e246fe91dae9855b367ba0 = $(`<div id="html_244fc01cd2e246fe91dae9855b367ba0" style="width: 100.0%; height: 100.0%;">Clear Lake @ 1439.0 m</div>`)[0];
+            popup_3444e235447844b094acf9ade248fcb4.setContent(html_244fc01cd2e246fe91dae9855b367ba0);
+        
+
+        circle_marker_13704934cd884ca1a3c65556fb391dc6.bindPopup(popup_3444e235447844b094acf9ade248fcb4)
+        ;
+
+        
+    
+    
+            var circle_marker_35a006ee0a99409a918b0325d4d08930 = L.circleMarker(
+                [39.3749008, -119.7210007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_c0dc9eccac36486799a24f3ae687d46a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a06821661a047b5ab9e4b0b50e6bfdd = $(`<div id="html_1a06821661a047b5ab9e4b0b50e6bfdd" style="width: 100.0%; height: 100.0%;">Steamboat Springs @ 1415.0 m</div>`)[0];
+            popup_c0dc9eccac36486799a24f3ae687d46a.setContent(html_1a06821661a047b5ab9e4b0b50e6bfdd);
+        
+
+        circle_marker_35a006ee0a99409a918b0325d4d08930.bindPopup(popup_c0dc9eccac36486799a24f3ae687d46a)
+        ;
+
+        
+    
+    
+            var circle_marker_39e1b898e7b24b18aedef70691a9410b = L.circleMarker(
+                [39.6500015, -107.0309982],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_dff7b91e800c4bc48acb57b86d211b47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fcc7bd78819490899f7d9c503b211b5 = $(`<div id="html_9fcc7bd78819490899f7d9c503b211b5" style="width: 100.0%; height: 100.0%;">Dotsero @ 2230.0 m</div>`)[0];
+            popup_dff7b91e800c4bc48acb57b86d211b47.setContent(html_9fcc7bd78819490899f7d9c503b211b5);
+        
+
+        circle_marker_39e1b898e7b24b18aedef70691a9410b.bindPopup(popup_dff7b91e800c4bc48acb57b86d211b47)
+        ;
+
+        
+    
+    
+            var circle_marker_338ce67c19604d9ba6af39711b95e09e = L.circleMarker(
+                [37.9999008, -119.0309982],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_1a948ea6a9a94110aa887e802240f04b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40d792194cc141a09318e5ccffa29c42 = $(`<div id="html_40d792194cc141a09318e5ccffa29c42" style="width: 100.0%; height: 100.0%;">Mono Lake Volc Field @ 2121.0 m</div>`)[0];
+            popup_1a948ea6a9a94110aa887e802240f04b.setContent(html_40d792194cc141a09318e5ccffa29c42);
+        
+
+        circle_marker_338ce67c19604d9ba6af39711b95e09e.bindPopup(popup_1a948ea6a9a94110aa887e802240f04b)
+        ;
+
+        
+    
+    
+            var circle_marker_979a091d8e4e4e4986e91f9b5210fdea = L.circleMarker(
+                [38.9700012, -112.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_51f72715e047410c8fef5fe03a0843a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_772524d3a88f48b5bdeb44104580b5a9 = $(`<div id="html_772524d3a88f48b5bdeb44104580b5a9" style="width: 100.0%; height: 100.0%;">Black Rock Desert @ 1800.0 m</div>`)[0];
+            popup_51f72715e047410c8fef5fe03a0843a6.setContent(html_772524d3a88f48b5bdeb44104580b5a9);
+        
+
+        circle_marker_979a091d8e4e4e4986e91f9b5210fdea.bindPopup(popup_51f72715e047410c8fef5fe03a0843a6)
+        ;
+
+        
+    
+    
+            var circle_marker_9e3815f1702a43d0ac3ae6ed0e19e3e0 = L.circleMarker(
+                [37.8799019, -119.0009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_2cb6481a8d5e4a5db5cbff27ca990b07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0377be2d66fe4f43bd79d076e8c70e32 = $(`<div id="html_0377be2d66fe4f43bd79d076e8c70e32" style="width: 100.0%; height: 100.0%;">Mono Craters @ 2796.0 m</div>`)[0];
+            popup_2cb6481a8d5e4a5db5cbff27ca990b07.setContent(html_0377be2d66fe4f43bd79d076e8c70e32);
+        
+
+        circle_marker_9e3815f1702a43d0ac3ae6ed0e19e3e0.bindPopup(popup_2cb6481a8d5e4a5db5cbff27ca990b07)
+        ;
+
+        
+    
+    
+            var circle_marker_077105cc9cbe49529b1b92a5fe44b0b0 = L.circleMarker(
+                [37.6918983, -119.0210037],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_94c2e13b79ff41769e86b0c676201764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a091eb925124c08aa5426233bf60a5e = $(`<div id="html_4a091eb925124c08aa5426233bf60a5e" style="width: 100.0%; height: 100.0%;">Inyo Craters @ 2629.0 m</div>`)[0];
+            popup_94c2e13b79ff41769e86b0c676201764.setContent(html_4a091eb925124c08aa5426233bf60a5e);
+        
+
+        circle_marker_077105cc9cbe49529b1b92a5fe44b0b0.bindPopup(popup_94c2e13b79ff41769e86b0c676201764)
+        ;
+
+        
+    
+    
+            var circle_marker_c3f5c7ec7e6c47b0bc5a45fcd793648c = L.circleMarker(
+                [37.6999016, -118.8710022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_5d827a1e94544be0ae792101cb7cc146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_401f65e979cd44c191005c082cb56527 = $(`<div id="html_401f65e979cd44c191005c082cb56527" style="width: 100.0%; height: 100.0%;">Long Valley @ 3390.0 m</div>`)[0];
+            popup_5d827a1e94544be0ae792101cb7cc146.setContent(html_401f65e979cd44c191005c082cb56527);
+        
+
+        circle_marker_c3f5c7ec7e6c47b0bc5a45fcd793648c.bindPopup(popup_5d827a1e94544be0ae792101cb7cc146)
+        ;
+
+        
+    
+    
+            var circle_marker_4f50deef997e41ff86231715261eb10f = L.circleMarker(
+                [37.5798988, -119.0510025],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_96d27911d2414b24854a343aa907cb38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e00445446e64405895dc6ac4f6e2fa53 = $(`<div id="html_e00445446e64405895dc6ac4f6e2fa53" style="width: 100.0%; height: 100.0%;">Red Cones @ 2748.0 m</div>`)[0];
+            popup_96d27911d2414b24854a343aa907cb38.setContent(html_e00445446e64405895dc6ac4f6e2fa53);
+        
+
+        circle_marker_4f50deef997e41ff86231715261eb10f.bindPopup(popup_96d27911d2414b24854a343aa907cb38)
+        ;
+
+        
+    
+    
+            var circle_marker_abb50fce598343f3b45cef701a3b827e = L.circleMarker(
+                [37.0199013, -117.4509964],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_690e2b032aa84347bd89f25badc3e512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea333016bad04a91bb792332e2eeca1e = $(`<div id="html_ea333016bad04a91bb792332e2eeca1e" style="width: 100.0%; height: 100.0%;">Ubehebe Craters @ 752.0 m</div>`)[0];
+            popup_690e2b032aa84347bd89f25badc3e512.setContent(html_ea333016bad04a91bb792332e2eeca1e);
+        
+
+        circle_marker_abb50fce598343f3b45cef701a3b827e.bindPopup(popup_690e2b032aa84347bd89f25badc3e512)
+        ;
+
+        
+    
+    
+            var circle_marker_de0f2fee510e4bd3891e5b25f1279754 = L.circleMarker(
+                [37.5800018, -112.6709976],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_c4d8683b73a74512b4c5ac707aa9c928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_587274fe9c884cfb8276a5861d5feb47 = $(`<div id="html_587274fe9c884cfb8276a5861d5feb47" style="width: 100.0%; height: 100.0%;">Markagunt Plateau @ 2840.0 m</div>`)[0];
+            popup_c4d8683b73a74512b4c5ac707aa9c928.setContent(html_587274fe9c884cfb8276a5861d5feb47);
+        
+
+        circle_marker_de0f2fee510e4bd3891e5b25f1279754.bindPopup(popup_c4d8683b73a74512b4c5ac707aa9c928)
+        ;
+
+        
+    
+    
+            var circle_marker_204e181a8f744e72bc3655e826c3ec49 = L.circleMarker(
+                [37.257, -113.6210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_89aab61430b241298b4e6ce8d6dcb4e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b54a0870a81438fbc07076e6bd94345 = $(`<div id="html_8b54a0870a81438fbc07076e6bd94345" style="width: 100.0%; height: 100.0%;">Santa Clara @ 1465.0 m</div>`)[0];
+            popup_89aab61430b241298b4e6ce8d6dcb4e4.setContent(html_8b54a0870a81438fbc07076e6bd94345);
+        
+
+        circle_marker_204e181a8f744e72bc3655e826c3ec49.bindPopup(popup_89aab61430b241298b4e6ce8d6dcb4e4)
+        ;
+
+        
+    
+    
+            var circle_marker_c285e5c228ca479985de10ef6a4356de = L.circleMarker(
+                [37.3279991, -112.401001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_86895f4fae584f2e94de951b9fa1d79c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ca38f28d5464ef0a110b4d33f1f1436 = $(`<div id="html_6ca38f28d5464ef0a110b4d33f1f1436" style="width: 100.0%; height: 100.0%;">Bald Knoll @ 2135.0 m</div>`)[0];
+            popup_86895f4fae584f2e94de951b9fa1d79c.setContent(html_6ca38f28d5464ef0a110b4d33f1f1436);
+        
+
+        circle_marker_c285e5c228ca479985de10ef6a4356de.bindPopup(popup_86895f4fae584f2e94de951b9fa1d79c)
+        ;
+
+        
+    
+    
+            var circle_marker_73a15f279c144499a221cef995644500 = L.circleMarker(
+                [36.3578987, -118.3209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_64fb83670434428180a970cd1a7f4953 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fec1de096054c699ff1e7cbb1f47e8b = $(`<div id="html_9fec1de096054c699ff1e7cbb1f47e8b" style="width: 100.0%; height: 100.0%;">Golden Trout Creek @ 2886.0 m</div>`)[0];
+            popup_64fb83670434428180a970cd1a7f4953.setContent(html_9fec1de096054c699ff1e7cbb1f47e8b);
+        
+
+        circle_marker_73a15f279c144499a221cef995644500.bindPopup(popup_64fb83670434428180a970cd1a7f4953)
+        ;
+
+        
+    
+    
+            var circle_marker_b182271c0c284fac8a7c102aca5f48c2 = L.circleMarker(
+                [36.0298996, -117.8209991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_bc74a327f8264fe19100e7ee780eb43a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b810e16494d34f57be48ba9100f511f0 = $(`<div id="html_b810e16494d34f57be48ba9100f511f0" style="width: 100.0%; height: 100.0%;">Coso Volc Field @ 2400.0 m</div>`)[0];
+            popup_bc74a327f8264fe19100e7ee780eb43a.setContent(html_b810e16494d34f57be48ba9100f511f0);
+        
+
+        circle_marker_b182271c0c284fac8a7c102aca5f48c2.bindPopup(popup_bc74a327f8264fe19100e7ee780eb43a)
+        ;
+
+        
+    
+    
+            var circle_marker_3d77b5708740445ab71440e38eb1726f = L.circleMarker(
+                [36.3800011, -113.1309967],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_c81a9dd0082449bc8d22bc29e0f6665c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49b08478986c4e599fe67aa3530bfa6b = $(`<div id="html_49b08478986c4e599fe67aa3530bfa6b" style="width: 100.0%; height: 100.0%;">Uinkaret Field @ 1555.0 m</div>`)[0];
+            popup_c81a9dd0082449bc8d22bc29e0f6665c.setContent(html_49b08478986c4e599fe67aa3530bfa6b);
+        
+
+        circle_marker_3d77b5708740445ab71440e38eb1726f.bindPopup(popup_c81a9dd0082449bc8d22bc29e0f6665c)
+        ;
+
+        
+    
+    
+            var circle_marker_bb1c73f2d7b9424a87a13ec7b74e51b3 = L.circleMarker(
+                [34.75, -116.6210022],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_54f68575e9064e098d646d84426b1d0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d680c10c3e64e0fa685af978b5ce9ac = $(`<div id="html_8d680c10c3e64e0fa685af978b5ce9ac" style="width: 100.0%; height: 100.0%;">Lavic Lake @ 1495.0 m</div>`)[0];
+            popup_54f68575e9064e098d646d84426b1d0a.setContent(html_8d680c10c3e64e0fa685af978b5ce9ac);
+        
+
+        circle_marker_bb1c73f2d7b9424a87a13ec7b74e51b3.bindPopup(popup_54f68575e9064e098d646d84426b1d0a)
+        ;
+
+        
+    
+    
+            var circle_marker_77f35af3383546e184c84e88d1278710 = L.circleMarker(
+                [35.8699989, -106.5709991],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_199ceac69a2f4281abc40886110f8ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f6f9b107cfc548cdb77147315ef3cc4b = $(`<div id="html_f6f9b107cfc548cdb77147315ef3cc4b" style="width: 100.0%; height: 100.0%;">Valles Caldera @ 3430.0 m</div>`)[0];
+            popup_199ceac69a2f4281abc40886110f8ec3.setContent(html_f6f9b107cfc548cdb77147315ef3cc4b);
+        
+
+        circle_marker_77f35af3383546e184c84e88d1278710.bindPopup(popup_199ceac69a2f4281abc40886110f8ec3)
+        ;
+
+        
+    
+    
+            var circle_marker_14db68c95eb04e66b61be530154e5cbd = L.circleMarker(
+                [35.3699989, -111.5009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_16f3f118a02d45c1819fbca3286f8769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b8ddfbc05ec413289e2f0563e304c03 = $(`<div id="html_8b8ddfbc05ec413289e2f0563e304c03" style="width: 100.0%; height: 100.0%;">Sunset Crater @ 2447.0 m</div>`)[0];
+            popup_16f3f118a02d45c1819fbca3286f8769.setContent(html_8b8ddfbc05ec413289e2f0563e304c03);
+        
+
+        circle_marker_14db68c95eb04e66b61be530154e5cbd.bindPopup(popup_16f3f118a02d45c1819fbca3286f8769)
+        ;
+
+        
+    
+    
+            var circle_marker_c050603197fd480db5c05cee2e7cf406 = L.circleMarker(
+                [34.5499992, -115.7809982],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_1343bc6983614aa29ffa9c447e287f48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5012f36bb18340b49dfde649bd2736a6 = $(`<div id="html_5012f36bb18340b49dfde649bd2736a6" style="width: 100.0%; height: 100.0%;">Amboy @ 288.0 m</div>`)[0];
+            popup_1343bc6983614aa29ffa9c447e287f48.setContent(html_5012f36bb18340b49dfde649bd2736a6);
+        
+
+        circle_marker_c050603197fd480db5c05cee2e7cf406.bindPopup(popup_1343bc6983614aa29ffa9c447e287f48)
+        ;
+
+        
+    
+    
+            var circle_marker_bb4d877204e447d28dc84e8e06338476 = L.circleMarker(
+                [34.7999992, -108.0009995],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_e5c39c189c824008a9cac84d21056408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0efda044789b42ffa522a875b6ea04c3 = $(`<div id="html_0efda044789b42ffa522a875b6ea04c3" style="width: 100.0%; height: 100.0%;">Zuni-Bandera @ 2550.0 m</div>`)[0];
+            popup_e5c39c189c824008a9cac84d21056408.setContent(html_0efda044789b42ffa522a875b6ea04c3);
+        
+
+        circle_marker_bb4d877204e447d28dc84e8e06338476.bindPopup(popup_e5c39c189c824008a9cac84d21056408)
+        ;
+
+        
+    
+    
+            var circle_marker_4827fa17c2aa444c92778952d36dba0f = L.circleMarker(
+                [33.7801018, -105.9309998],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(feature_group_7c844cfb64ae4c9f8ba56f6732cd5f4d);
+        
+    
+        var popup_d8c62e39a25e4daa9e87df3ed47644b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d2490059d5a459582373259ad9a64ed = $(`<div id="html_8d2490059d5a459582373259ad9a64ed" style="width: 100.0%; height: 100.0%;">Carrizozo @ 1731.0 m</div>`)[0];
+            popup_d8c62e39a25e4daa9e87df3ed47644b8.setContent(html_8d2490059d5a459582373259ad9a64ed);
+        
+
+        circle_marker_4827fa17c2aa444c92778952d36dba0f.bindPopup(popup_d8c62e39a25e4daa9e87df3ed47644b8)
+        ;
+
+        
+    
+</script>
