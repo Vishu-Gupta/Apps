@@ -46,7 +46,7 @@ def get_selected_row(event):
         e4.insert(END, selected_tuple[4])
     except IndexError:
         pass
-    
+
 def delete_command():
     backend.delete_entry(selected_tuple[0])
 
